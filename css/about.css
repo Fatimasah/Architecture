@@ -1,0 +1,111 @@
+/* ========About stylee ======== */
+.home .static-home {
+    /* padding: 9% 0px; */
+}
+.home {
+   padding-bottom: 0;
+   
+   background-image: url(../imgs/base.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 85%;
+   position: relative;
+   height: 390px;
+}
+@media (min-width: 1199px) {
+    .fixed2 {
+        height: 50%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .home {
+        background-position: 50% 100%;
+    }
+    .fixed2 {
+        height: 60%;
+    }
+}
+.home .static-home .readMore {
+    top: 60%;
+}
+.home .static-home .about-title h1 {
+    font-family: 'r-bold';
+}
+ 
+/* team */
+.team {
+    overflow: hidden;
+}
+.team .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.team .row {
+    justify-content: space-between;
+}
+.col-m-b {
+    margin-bottom: 100px;
+}
+.team .member-img img {
+    max-width: 100%;
+}
+.team .col-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team .member-info-r {
+    padding-right: 100px;
+}
+.team .member-info-l {
+    padding-left: 100px;
+}
+
+.team .member-info .p-title {
+    font-family: 'r-reg';
+    font-size: 16px;
+    color: #000000;
+}
+.team .member-info h4 {
+    font-family: 'r-reg';
+    font-size: 60px;
+    color: #000000;
+}
+.team .member-info .p-details {
+    font-family: 'r-reg';
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+     line-height: 1.556;
+    }
+    @media (max-width: 992px){
+        .team .member-info-r
+         {
+            padding-right: 0;
+        }
+        .team .member-info-l {
+            padding-left: 0;
+        }
+        .team .member-info h4 {
+            font-size: 40px;
+        }
+        .fixed2 {
+            height: 60%;
+        }
+    }
+    @media (max-width: 768px){
+        .team .member-info .p-details {
+            text-align: center;
+        }
+        .fixed2 {
+            height: 60%;
+        }
+    }
+    .footer-section {
+        margin-top: 0;
+    }
+    @media (max-width: 575px){
+        .fixed2 {
+            height: 65%;
+        }
+    }

@@ -1,0 +1,199 @@
+:root {
+    --grayColor: #4d4d4d;
+    --graylight: #666666;
+    --headingColor: #f5f5f5;
+    --btngrayColor: #b2b2b2;
+    --btnborderColor: #f0f0f0;
+}
+@font-face {
+    font-family: "r-reg";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "r-thin";
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: "r-light";
+    src:url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "r-med";
+    src:url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "r-black";
+    src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "r-bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+.home .static-home {
+    /* padding: 9% 0px; */
+}
+.home {
+   padding-bottom: 0;
+   
+   background-image: url(../imgs/base.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 85%;
+   position: relative;
+   height: 390px;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .home {
+        background-position: 50% 100%;
+    }
+}
+.home .static-home .readMore {
+    top: 60%;
+}
+.home .static-home .about-title h1 {
+    font-family: 'r-bold';
+}
+ 
+
+
+
+/* .contact-form {
+    margin-bottom: 100px;
+}
+.contact-form .containder-shadow {
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    -moz-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    -o-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    -ms-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    box-shadow: 0px 5px 15px 2px #e3e0de6e;
+} */
+.contact-row {
+    justify-content: space-between;
+}
+.general-iqu {
+    margin-left: 60px;
+
+}
+.general-title {
+    color: var(--graylight);
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-family: 'r-reg';
+}
+svg:not(:root).svg-inline--fa.cont-phon {
+    transform: rotate(90deg);
+}
+svg:not(:root).svg-inline--fa
+{
+    margin-right: 60px;
+}
+ .general-iqu .contact-info .info {
+    font-size: 18px;
+    color: #b3b3b3;
+    font-family: 'r-reg';
+}
+ .general-iqu .contact-info .info span {
+    font-size: 25px;
+    opacity: .5;
+}
+@media (min-width: 991px) {
+    .request-info{
+        margin-right: 60px;
+    }
+}
+
+ .request-info form input {
+    height: 65px;
+    position: relative;
+    color: #999999;
+    font-size: 15px;
+    font-family: 'r-reg';
+    padding-left: 45px;
+
+}
+.request-info .form-group svg:not(:root).svg-inline--fa {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+    color: #b3b3b3;
+    opacity: .5;
+}
+/* .contact-form .request-info form input:focus 
+ .form-group path{
+    
+        display: none;
+
+    } */
+   .request-info .comm svg:not(:root).svg-inline--fa { 
+        top: 170px;
+        left: 35px;
+    }
+    @media (max-width: 768px) {
+        .request-info .comm svg:not(:root).svg-inline--fa { 
+            top: 250px;
+        }
+    }
+    .request-info form textarea {
+    width: 100%;
+    resize: none;
+    position: relative;
+    padding-left: 45px;
+}
+button {
+    height: 100%;
+    background: unset;
+    border: 0;
+    color: #b2b2b2;
+    font-size: 12px;
+    font-family: 'r-black', sans-serif;
+    letter-spacing: 1px;
+    -webkit-transition: all .5s  linear;
+    -moz-transition: all .5s  linear;
+    -o-transition: all .5s  linear;
+    -ms-transition: all .5s  linear;
+    transition: all .5s linear;
+}
+button:hover {
+    
+    -webkit-transition: all .5s  linear;
+    -moz-transition: all .5s  linear;
+    -o-transition: all .5s  linear;
+    -ms-transition: all .5s  linear;
+    transition: all .5s linear;
+    color: #ffffff;
+    
+}
+.foot {
+    height: 560px;;
+}
+@media (max-width:992px) {
+    .contact-form .general-title {
+        text-align: center;
+    }
+    .read-more-btn {
+        margin: auto;
+    }
+    .info {
+        
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+   .genera {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+    .foot {
+        height: 990px;
+    }
+    .general-iqu {
+        margin-left: 0px;
+    
+    }
+}

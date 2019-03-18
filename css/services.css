@@ -1,0 +1,57 @@
+/* services style */
+.home {
+    padding-bottom: 0;
+    
+    background-image: url(../imgs/base.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 85%;
+    position: relative;
+    height: 390px;
+ }
+ @media (max-width: 1200px) and (min-width: 992px) {
+     .home {
+         background-position: 50% 100%;
+     }
+ }
+ .home .static-home .readMore {
+     top: 60%;
+ }
+ .home .static-home .about-title h1 {
+     font-family: 'r-bold';
+ }
+ .portfo {
+     height: 0px;
+
+ }
+ 
+ /* servic */
+.services {
+    padding-top: 100px;
+}
+.portfolio {
+    padding-top: 100px;
+}
+footer {
+    padding-top: 100px;
+}
+@media (min-width:992px)  {
+    .serv {
+    height: 0px;
+    }
+}
+@media (max-width:992px)  {
+    .serv {
+    height: 50px;
+    }
+}
+@media (max-width:768px)  {
+    .serv {
+    height: 200px;
+    }
+}
+@media (max-width:576px)  {
+    .serv {
+    height: 290px;
+    }
+}
